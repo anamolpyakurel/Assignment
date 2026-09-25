@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Media Hub</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Google Font (Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Apply Google Font to Main Heading -->
+    <style>
+        h1 {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Heading -->
+    <h1>My Media Hub</h1>
+
+    <!-- 1. YouTube Video Embed -->
+    <h2>1. YouTube Video</h2>
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+            title="YouTube video" 
+            frameborder="0" 
+            allowfullscreen>
+    </iframe>
+
+    <h2>2. Local Video</h2>
+    <video controls width="400">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+    <h2>3. Audio Player</h2>
+    <audio controls>
+        <source src="music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <h2>4. Location Map (PCPS College)</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.814321287118!2d85.31214!3d27.6882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19b22e118ef5%3A0x6b1b74efb702967!2sPCPS%20College!5e0!3m2!1sen!2snp!4v1600000000000!5m2!1sen!2snp" 
+            width="400" 
+            height="300" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+    </iframe>
+    <h2>5. External Webpage</h2>
+<embed src="https://www.wikipedia.org" width="500" height="300">
+    <h2>6. Embedded PDF Document</h2>
+    <embed src="form.pdf" type="application/pdf" width="500" height="400">
+
+</body>
+</html>
