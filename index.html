@@ -1,40 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Anamol Pyakurel - Home</title>
+    <meta charset="UTF-8">
+    <style>
+        /* CSS using internal CSS */
+        .para {
+            border: dotted;
+            border-color: black;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Anamol Pyakurel</h1>
-        <p>Software Engineering Student</p>
-    </header>
+    <h1 class="main-heading">Student Profile</h1>
+    <img src="Test.png" alt="Profile Picture" class="profile-img">
 
-    <nav>
-        <a href="index.html">Home</a> | 
-        <a href="about.html">About</a> | 
-        <a href="contact.html">Contact</a>
-    </nav>
+    <p class="para">HELLO THIS IS A PARAGRAPH</p>
 
-    <main>
-        <section>
-            <h2>Welcome</h2>
-            <p>Hello! Welcome to my personal portfolio website.</p>
-        </section>
+    <!-- CSS using Inline CSS -->
+    <p style="color: red; background-color: rgb(41, 10, 5); font-size: large; text-align: center;">
+        Anamol Pyakurel
+    </p>
 
-        <section>
-            <h2>My Skills</h2>
-            <ul>
-                <li>HTML Web Development</li>
-                <li>Python Programming</li>
-                <li>Computer Systems</li>
-            </ul>
-        </section>
-    </main>
+    <p id="Anamol">This paragraph was changed using External css</p>
+    <p class="Green">Student ID: 99999999999</p>
+    <p class="Blue">Program: SE</p>
 
-    <footer>
-        <p>Anamol Pyakurel</p>
-    </footer>
+    <p class="profile-text">
+        First-semester Software Engineering student passionate about full-stack web development, software design, and system optimization.
+    </p>
+
+    <h3>Skills</h3>
+    <ul class="skills-list">
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript</li>
+        <li>Software Engineering & Design</li>
+    </ul>
+
+    <div>
+        First Div
+    </div>
+    <div class="box1">
+        Second Div
+    </div>
+    <div id="box2">
+        Third Div
+    </div>
 
 </body>
 </html>

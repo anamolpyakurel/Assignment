@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main-heading {
+    color: #1a5276;
+    font-size: 32px;
+    text-align: center;
+}
+
+.profile-img {
+    display: block;
+    margin: 0 auto 15px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-text {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.skills-list {
+    list-style-type: square;
+    background-color: #f4f6f9;
+    padding: 15px 30px;
+    border-radius: 6px;
+    width: 280px;
+}
+
+.skills-list li {
+    margin: 6px 0;
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+#Anamol {
+    color: gold;
+}
+
+.Green {
+    color: green;
+    text-align: center;
+}
+
+.Blue {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    border: 2px solid red;
+    padding: 15px;
+    margin: 15px 0;
+    height: 90px;
+    width: 320px;
+    box-sizing: border-box;
+}
+
+.box1 {
+    background-color: pink;
+    color: gray;
+    font-weight: bold;
+    border-color: purple;
+}
+
+#box2 {
+    background-color: goldenrod;
+    color: cornflowerblue;
+    text-align: center;
+    border-style: dashed;
+    font-style: italic;
+}
